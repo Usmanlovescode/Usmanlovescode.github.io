@@ -1,2 +1,2 @@
-# Usmanlovescode.github.io
-This is my personal Portfolio Project
+# usman.github.io
+I am a passionate developer and programmer

@@ -1,0 +1,41 @@
+#container__typing {
+  margin-top: -10.7rem;
+  margin-left: 21.2rem;
+  height: 100px;
+  width: 390px !important;
+}
+#text {
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 27px;
+  position: relative;
+  /* left: 22rem;
+  top: -10.5rem; */
+  display: inline-block;
+  vertical-align: middle;
+  color: #3cf;
+  letter-spacing: 1px;
+  font-family: Poppins;
+}
+#cursor {
+  position: relative;
+  /* left: 21rem; */
+  /* top: -10.5rem; */
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -15px;
+  width: 3px;
+  height: 40px;
+  background-color: #6655ff;
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    background-color: transparent;
+  }
+  50% {
+    background-color: #6655ff;
+  }
+}
